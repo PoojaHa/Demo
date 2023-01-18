@@ -1,0 +1,118 @@
+.App{
+  background-color: blue;
+  height: 100vh;
+  overflow: hidden;
+}
+.boxitems{
+  justify-content: center;
+  display: flex;
+ 
+}
+.box{
+  background-color: bisque;
+  padding: 30px;
+  margin-top: 40px;
+  
+}
+.box input{
+ width: 15rem;
+ padding: 5px;
+}
+.box h1{
+  text-align: center;
+  text-shadow:  1px solid darksalmon;
+  font-weight: 900;
+  display: flex;
+}
+.box button{
+  padding: 8px;
+  color: white;
+  background-color: crimson;
+  margin-left: 5px;
+  border: none;
+  font-style: normal;
+  font-weight: 900;
+}
+button:hover{
+  background-color: darkgreen;
+}
+.listItems{
+  margin-top: 40px;
+}
+.list{
+  justify-content: center;
+  display: flex;
+}
+.content{
+   background-color: rgb(120, 122, 109);
+   color: white;
+   width:20%;
+   margin-top: 4px;
+}
+.btn1{
+  margin-left: 4px;
+  width: 90px;
+  background-color: rgb(145, 196, 167);
+  border: none;
+  font-weight: 900;
+  color: white;
+  margin-top: 5px;
+}
+.btn2{
+  background-color: rgb(131, 127, 151);
+  margin-left: 4px;
+  width: 80px;
+  border: none;
+  font-weight: 900;
+  color: white;
+  margin-top: 5px;
+}
+.ptext{
+  margin-left: 10px;
+}
+.edit input {
+  padding: 10px;
+}
+.edit button{
+  padding: 10px;
+  color: white;
+  background-color: seagreen;
+  border: none;
+  font-weight: 900;
+  margin-left: 5px;
+}
+@media (max-width: 480px) {
+  .App{
+    background-color: rgb(0, 255, 85);
+    height: 100vh;
+    overflow: hidden;
+  }
+  .boxitems{
+    justify-content: center;
+    display: flex;
+   
+  }
+  .box{
+    background-color: rgb(115, 198, 205);
+    padding: 30px;
+    margin-top: 40px;
+    
+  }
+   h1{
+    text-align: center;
+    margin-left: 60px;
+  }
+   .edit button{
+    padding: 10px;
+    color: white;
+    background-color: seagreen;
+    border: none;
+    font-weight: 900;
+    margin-left: 5px;
+   
+  }
+  .edit{
+    flex-direction: column;
+    display: flex;
+  }
+}
